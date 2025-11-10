@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="animation.css">
+    <title>11a1 HTML-PROJECT-2026</title>
+</head>
+<style>
+    table, th, td{
+        border: 1px solid black;
+        padding: 5px 10px;
+        border-collapse: collapse;
+    }
+    th{
+        background-color: cornflowerblue;
+        color: white;
+    }
+    table tr:nth-child(2){
+        background-color: lightcyan;
+    }
+    table td:nth-child(4)
+    {
+        background-color: darkgray;
+        color: white;
+    }
+    table tr .lakcim
+    {
+        background-color: red;
+    }
+    table tr:hover
+    {
+        background-color: cadetblue;
+        color: white;
+    }
+    .table-container
+    {
+        width: 650px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+</style>
+
+<body>
+    <header>
+        <div id="logo">
+            <a href="index.html">
+                <img src="images/premo.png" alt="Premo logo" width="190" title="Premo logo">
+            </a>
+        </div>
+        <div id="banner-content">
+            <a href="index.html">
+                <h1 title="11a HTML PROJECT 2026">11a HTML PROJECT 2026</h1>
+            </a>
+            <h2>header</h2>
+        </div>
+    </header>
+
+    <div class="container">
+        <nav>
+            <h2>nav</h2>
+            <div id="menu">
+                <ul>
+                    <li><a href="index.html">főoldal</a></li>
+                    <li><a href="#nogo">html demo</a>
+                        <ul>
+                            <li><a href="animation.html">css animáció</a></li>
+                            <li><a href="form.html">html űrlap</a></li>
+                            <li><a href="table.html">html táblázat</a></li>
+                            <li><a href="gallery.html">képgaléria</a></li>
+                            <li><a href="media.html">média</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <section>
+            <h2>section</h2>
+            <article>
+                <h2>HTML táblázat</h2>
+
+                <div class="table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Név</th>
+                                <th>Foglalkozás</th>
+                                <th>Lakcím</th>
+                                <th>Telefonszám</th>
+                                <th>Email</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Gipsz Jakab</td>
+                                <td>Programozó</td>
+                                <td>Pál utca 1</td>
+                                <td>111-222</td>
+                                <td>gipsz@gmail.com</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Gipsz Jakab</td>
+                                <td>Programozó</td>
+                                <td>Pál utca 1</td>
+                                <td>111-222</td>
+                                <td>gipsz@gmail.com</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Gipsz Jakab</td>
+                                <td>Programozó</td>
+                                <td class="lakcim">Pál utca 1</td>
+                                <td>111-222</td>
+                                <td>gipsz@gmail.com</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Gipsz Jakab</td>
+                                <td>Programozó</td>
+                                <td>Pál utca 1</td>
+                                <td>111-222</td>
+                                <td>gipsz@gmail.com</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>Gipsz Jakab</td>
+                                <td>Programozó</td>
+                                <td>Pál utca 1</td>
+                                <td>111-222</td>
+                                <td>gipsz@gmail.com</td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </article>
+        </section>
+    </div>
+
+    <footer>
+        <h2>FOOTER</h2>
+        <h2>Kupovits Kristof 2025C</h2>
+    </footer>
+</body>
+
+</html>

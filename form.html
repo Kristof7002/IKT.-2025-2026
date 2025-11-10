@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>11a1 HTML-PROJECT-2026</title>
+    <style>
+span{
+    color: red;
+}
+    </style>
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <a href="index.html"><img src="images/premo.png" alt="Premo logo" width="190" title="Premo logo"></a>
+        </div>
+        <div id="banner-content">
+            <a href="index.html">
+                <h1 title="11a HTML PROJECT 2026">11a HTML PROJECT 2026</h1>
+            </a>
+            <h2>header</h2>
+        </div>
+    </header>
+    <div class="container">
+        <nav>
+            <h2>nav</h2>
+            <div id="menu">
+                <ul>
+                    <li><a href="index.html">fooldal</a></li>
+                    <li><a href="#nogo">html demo</a>
+                        <ul>
+                            <li><a href="animation.html">css animacio</a>
+                            <li><a href="form.html">html urlap</a>
+                            <li><a href="table.html">html taplazat </a></li>
+                            <li><a href="gallery.html">kepkalleria</a></li>
+                            <li><a href="media.html">media</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <section>
+            <h2>section</h2>
+            <article>
+                <h2>html urlap</h2>
+                <form action="">
+                    <p><span id="kotelezo">A piros csillaggal jelolt mezoket ki kell tolteni kotelezoen!</span></p>
+                    <fieldset>
+                        <legend>megrendelo adatai</legend>
+                        <p>
+                            <label for="nev">nev: <input type="text" name="nev" id="nev" placeholder="adj meg egy nevet..." required ></label>
+                            <small>vezeteknev keresztnev</small>
+                        </p>
+                        <p>
+                            <label for="telefon" >telefon: <span>*</span> <input type="number" name="telefon" id="telefon" placeholder="telefonszam megadasa..." required ></label>
+                        </p>
+                        <p>
+                            <label for="cim">szallitasi cim <span>*</span><input type="text" name="cim" id="cim" placeholder="cim megadasa..." required ></label>
+                            
+                        </p>
+                        <p>
+                            <label for="email">email cim <span>*</span> <input type="email" name="email" id="email" placeholder="email cim megadasa..." required ></label>                         
+                            
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>pizza merete</legend>
+                        <p>
+                            <label for=""><input type="radio" name="meret" value="kicsi" checked> kicsi </label>
+                        </p>
+                        <p>
+                            <label for=""><input type="radio" name="meret" value="kozepes" > kozepes</label>
+                        </p>
+                        <p>
+                            <label for=""><input type="radio" name="meret" value="nagy" >nagy  </label>
+                        </p>
+                        <p>
+                            <label for=""><input type="radio" name="meret" value="kicsi" > meglepetes (+1000 forint) </label>
+                        </p>
+
+                    </fieldset>
+                    <fieldset>
+                        <legend>feltetek</legend>
+                        <p>
+                            <label for=""><input type="checkbox" name="feltet" value="sonka" checked> sonka </label>
+                        </p>
+                        <p>
+                            <label for=""><input type="checkbox" name="feltet" value="sajt" > sajt</label>
+                        </p>
+                        <p>
+                            <label for=""><input type="checkbox" name="feltet" value="kukorica" >kukorica  </label>
+                        </p>
+                        <p>
+                            <label for=""><input type="checkbox" name="feltet" value="ananasz" > ananasz </label>
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <p><label for="">Mennyiség:<input type="number" name="db" value=""></label></p>
+                    </fieldset>
+                    <fieldset>
+                        <p><label for="">Kért kiszállitasi ido:<input type="date" name="date" value=""></label></p>
+                    </fieldset>
+                    <fieldset>
+                        <p><label for=""><h4>Egyeb kivansag:</h4></label><textarea type="text" name="db" value=""></textarea></label></p>
+                    </fieldset>
+                    <button type="reset">Alaphelyzet</button>
+                    <button type="submit">Elkuldes</button>
+
+                </form>
+            </article>
+        </section>
+    </div>
+    <footer>
+        <h2>FOOTER</h2>
+        <h2>Kupovits Kristof 2025C</h2>
+
+    </footer>
+
+</body>
+
+</html>
